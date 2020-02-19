@@ -139,7 +139,7 @@ const renderSlides = spec => {
         id: `slide-${index}`,
         "data-index": index,
         className: classnames(slideClasses, slideClass),
-        tabIndex: isSlideActive ? undefined : "-1",
+        tabIndex: "-1",
         "aria-hidden": !isSlideActive,
         style: { outline: "none", ...(child.props.style || {}), ...childStyle },
         onClick: e => {
@@ -174,7 +174,7 @@ const renderSlides = spec => {
           React.cloneElement(child, {
             key: "precloned" + getKey(child, key),
             "data-index": key,
-            tabIndex: isSlideActive ? undefined : "-1",
+            tabIndex: "-1",
             className: classnames(slideClasses, slideClass),
             "aria-hidden": !isSlideActive,
             style: { ...(child.props.style || {}), ...childStyle },
@@ -205,7 +205,7 @@ const renderSlides = spec => {
           React.cloneElement(child, {
             key: "postcloned" + getKey(child, key),
             "data-index": key,
-            tabIndex: isSlideActive ? undefined : "-1",
+            tabIndex: "-1",
             className: classnames(slideClasses, slideClass),
             "aria-hidden": !isSlideActive,
             style: { ...(child.props.style || {}), ...childStyle },

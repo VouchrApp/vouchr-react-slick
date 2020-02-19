@@ -31,28 +31,28 @@ exports[`CenterMode Tests Activity test 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"width: -40px;\\" data-index=\\"-1\\" class=\\"slick-slide slick-cloned\\" aria-hidden=\\"true\\" tabindex=\\"-1\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"width: -40px;\\" data-index=\\"-1\\" tabindex=\\"-1\\" class=\\"slick-slide slick-cloned\\" aria-hidden=\\"true\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>6</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>1</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active slick-center slick-current\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active slick-center slick-current\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>2</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-3\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-2\\" data-index=\\"2\\" class=\\"slick-slide slick-active\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-3\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-2\\" data-index=\\"2\\" class=\\"slick-slide slick-active\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>3</h3>
@@ -159,21 +159,21 @@ exports[`CenterMode Tests Counting test 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"width: -40px;\\" data-index=\\"-1\\" class=\\"slick-slide slick-active slick-cloned\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"width: -40px;\\" data-index=\\"-1\\" tabindex=\\"-1\\" class=\\"slick-slide slick-active slick-cloned\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>6</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active slick-center slick-current\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active slick-center slick-current\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>1</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>2</h3>
@@ -287,21 +287,21 @@ exports[`CenterMode Tests Positioning test 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"width: -40px;\\" data-index=\\"-1\\" class=\\"slick-slide slick-active slick-cloned\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"width: -40px;\\" data-index=\\"-1\\" tabindex=\\"-1\\" class=\\"slick-slide slick-active slick-cloned\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>6</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active slick-center slick-current\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active slick-center slick-current\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>1</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: -40px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>2</h3>

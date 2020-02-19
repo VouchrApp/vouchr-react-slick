@@ -17,7 +17,7 @@ exports[`Simple Slider Snapshots click on 3rd dot 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide\\" aria-hidden=\\"true\\" tabindex=\\"-1\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide\\" tabindex=\\"-1\\" aria-hidden=\\"true\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>1</h3>
@@ -31,7 +31,7 @@ exports[`Simple Slider Snapshots click on 3rd dot 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-3\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-2\\" data-index=\\"2\\" class=\\"slick-slide slick-active slick-current\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-3\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-2\\" data-index=\\"2\\" class=\\"slick-slide slick-active slick-current\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>3</h3>
@@ -132,14 +132,14 @@ exports[`Simple Slider Snapshots click on next button 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide\\" aria-hidden=\\"true\\" tabindex=\\"-1\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide\\" tabindex=\\"-1\\" aria-hidden=\\"true\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>1</h3>
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active slick-current\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-2\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-1\\" data-index=\\"1\\" class=\\"slick-slide slick-active slick-current\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>2</h3>
@@ -247,7 +247,7 @@ exports[`Simple Slider Snapshots click on prev button 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide\\" aria-hidden=\\"true\\" tabindex=\\"-1\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide\\" tabindex=\\"-1\\" aria-hidden=\\"true\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>1</h3>
@@ -282,7 +282,7 @@ exports[`Simple Slider Snapshots click on prev button 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-5\\" data-index=\\"5\\" class=\\"slick-slide slick-active slick-current\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-6\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-5\\" data-index=\\"5\\" class=\\"slick-slide slick-active slick-current\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>6</h3>
@@ -362,7 +362,7 @@ exports[`Simple Slider Snapshots slider initial state 1`] = `
                         </div>
                     </div>
                 </li>
-                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active slick-current\\" aria-hidden=\\"false\\">
+                <li role=\\"tabpanel\\" aria-label=\\"Slide-1\\" style=\\"outline: none; width: 0px;\\" id=\\"slide-0\\" data-index=\\"0\\" class=\\"slick-slide slick-active slick-current\\" tabindex=\\"-1\\" aria-hidden=\\"false\\">
                     <div>
                         <div tabindex=\\"-1\\" style=\\"width: 100%; display: inline-block;\\">
                             <h3>1</h3>
