@@ -7,6 +7,37 @@ import defaultProps from "./default-props";
 import { canUseDOM } from "./utils/innerSliderUtils";
 const enquire = canUseDOM() && require("enquire.js");
 
+const cloneElementsWith = (props, children) =>
+  React.Children.toArray(children).map(child =>
+    React.cloneElement(child, props)
+  );
+
+const Slide = ({ children, className, ...props }) => {
+  const _children = cloneElementsWith(
+    {
+      active: className.includes("active")
+    },
+    children
+  );
+
+  return (
+    <li className={className} role="tabpanel" {...props}>
+      {_children}
+    </li>
+  );
+};
+
+const SlideContainer = ({ active, children }) => {
+  const _children = cloneElementsWith(
+    {
+      active
+    },
+    children
+  );
+
+  return <div>{_children}</div>;
+};
+
 export default class Slider extends React.Component {
   constructor(props) {
     super(props);
@@ -182,18 +213,17 @@ export default class Slider extends React.Component {
             })
           );
         }
-        newSlide.push(<div key={10 * i + j}>{row}</div>);
+        newSlide.push(<SlideContainer key={10 * i + j}>{row}</SlideContainer>);
       }
 
       newChildren.push(
-        <li
+        <Slide
           key={i}
-          role="tabpanel"
           aria-label={`${settings.accessibilitySlideLabel}-${i + 1}`}
           style={settings.variableWidth ? { width: currentWidth } : null}
         >
           {newSlide}
-        </li>
+        </Slide>
       );
     }
 

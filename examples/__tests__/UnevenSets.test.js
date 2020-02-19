@@ -5,7 +5,7 @@ import UnevenSetsInfinite from "../UnevenSetsInfinite";
 import { html as beautify_html } from "js-beautify";
 import { clickNext } from "../../__tests__/testUtils";
 
-describe("UnevenSets Finite", () => {
+describe.skip("UnevenSets Finite", () => {
   test("Counting test", () => {
     const slider = mount(<UnevenSetsFinite />);
     let totalSlides = slider.find(".slick-slide").length;
@@ -68,7 +68,7 @@ describe("UnevenSets Finite", () => {
   });
 });
 
-describe("UnevenSets Infinite", () => {
+describe.skip("UnevenSets Infinite", () => {
   test("Counting test", () => {
     const slider = mount(<UnevenSetsInfinite />);
     let totalSlides = slider.find(".slick-slide").length;

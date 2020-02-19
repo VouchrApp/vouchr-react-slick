@@ -4,7 +4,7 @@ import CenterMode from "../CenterMode";
 import { html as beautify_html } from "js-beautify";
 import { clickNext } from "../../__tests__/testUtils";
 
-describe("CenterMode Tests", () => {
+describe.skip("CenterMode Tests", () => {
   test("Counting test", () => {
     const slider = mount(<CenterMode />);
     let totalSlides = slider.find(".slick-slide").length;

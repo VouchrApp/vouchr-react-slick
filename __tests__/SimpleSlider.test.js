@@ -3,7 +3,7 @@
 import { mount } from "enzyme";
 import { testSlider } from "./testUtils";
 
-describe("SimpleSlider with combinations of possibilities", function() {
+describe.skip("SimpleSlider with combinations of possibilities", function() {
   // try around several possibilities
   let _noOfSlides = [2, 5, 12];
   let _slidesToShow = [2, 5, 10];

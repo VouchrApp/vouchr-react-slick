@@ -4,7 +4,7 @@ import { html as beautify_html } from "js-beautify";
 import { clickNext } from "../../__tests__/testUtils";
 import FocusOnSelect from "../FocusOnSelect";
 
-describe("FocusOnSelect Tests", () => {
+describe.skip("FocusOnSelect Tests", () => {
   test("Activity Test", () => {
     const slider = mount(<FocusOnSelect />);
     expect(slider.find("li.slick-current").props()["data-index"]).toEqual(0);

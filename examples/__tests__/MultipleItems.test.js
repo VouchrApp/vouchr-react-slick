@@ -3,7 +3,7 @@ import { mount } from "enzyme";
 import MultipleItems from "../MultipleItems";
 import { html as beautify_html } from "js-beautify";
 
-describe("Multiple Items", function() {
+describe.skip("Multiple Items", function() {
   it("should have 9 actual slides and (3(pre) + 9(post)) clone slides", function() {
     const wrapper = mount(<MultipleItems />);
     expect(wrapper.find(".slick-slide").length).toEqual(21);
