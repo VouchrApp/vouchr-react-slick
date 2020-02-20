@@ -386,7 +386,6 @@ export class InnerSlider extends React.Component {
     onLazyLoad && slidesToLoad.length > 0 && onLazyLoad(slidesToLoad);
     this.setState(state, () => {
       asNavFor && asNavFor.innerSlider.slideHandler(index);
-
       if (!nextState) return;
       this.animationEndCallback = setTimeout(
         () => {
