@@ -386,17 +386,21 @@ export class InnerSlider extends React.Component {
     onLazyLoad && slidesToLoad.length > 0 && onLazyLoad(slidesToLoad);
     this.setState(state, () => {
       asNavFor && asNavFor.innerSlider.slideHandler(index);
+
       if (!nextState) return;
-      this.animationEndCallback = setTimeout(() => {
-        const { animating, ...firstBatch } = nextState;
-        this.setState(firstBatch, () => {
-          this.callbackTimers.push(
-            setTimeout(() => this.setState({ animating }), 10)
-          );
-          afterChange && afterChange(state.currentSlide);
-          delete this.animationEndCallback;
-        });
-      }, speed);
+      this.animationEndCallback = setTimeout(
+        () => {
+          const { animating, ...firstBatch } = nextState;
+          this.setState(firstBatch, () => {
+            this.callbackTimers.push(
+              setTimeout(() => this.setState({ animating }), 10)
+            );
+            afterChange && afterChange(state.currentSlide);
+            delete this.animationEndCallback;
+          });
+        },
+        dontAnimate ? 0 : speed
+      );
     });
   };
   changeSlide = (options, dontAnimate = false) => {
